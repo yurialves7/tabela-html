@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="pedido.css">
 </head>
 <body>
     <h1>Tabelas Formatadas com css </h1>
@@ -13,17 +14,77 @@
     <table class="tabela-1">
         <!--  Thead - cabeçalho da tabela -->
           <thead>
+            <!--  TR - linha do cabeçalho da tabela -->
+              <tr>
+                <!-- TH - conteúdo da (celula) do cabeçalho -->
+                <th>Imagem</th>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Comprar</th>
+              </tr>
 
           </thead>
           <!--  tbody - corpo da tabela -->
           <tbody>
+            <tr>
+                <td><img src="/produtos/img/Fones-de-ouvido-sem-fio.jpg.jpg"width="100px" alt="fones de ouvido" ></td>
+                <td>Fones de ouvido</td>
+                <td>R$ 39,99</td>
+                <td><button>Comprar</button></td>
+            </tr>
+            <tr>
+                <td><img src="/produtos/img/Roupas-para-o-casal.jpg.jpg" width="100px" alt="conjunto moderno e elegante para casal" ></td>
+                <td>Conjunto roupa de casal</td>
+                <td>R$ 259,99</td>
+                <td><button>Comprar</button></td>
+            </tr>
+            <tr>
+                <td><img src="/produtos/img/teclado-gamer-com-teclas-laranjas-mecanico.jpg.jpg" width="100px" alt="teclado mecanico gamer"></td>
+                <td>teclado gamer marca raizer mecanico com teclas larajas</td>
+                <td>R$ 199,99</td>
+                <td><button>Comprar</button></td>
+
+            </tr>
 
           </tbody>
 
     </table>
     <h2>Tabela2:historco de pedidos</h2>
-    <table class="tabela-2"></table>
+    <table class="tabela-2">
 
+        <thead>
+            <tr>
+                <th>Numero do Pedido</th>
+                <th>Data</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>2024-04-20</td>
+                <td>R$ 234,50</td>
+                <td>entregue</td>
+                
+            </tr>
+
+            <tr>
+                <td>56789</td>
+                <td>2024-04-15</td>
+                <td>R$ 149,90</td>
+                <td>Em  Processamento</td>
+            </tr>
+            <tr>
+                <td>09876</td>
+                <td>2024-04-10</td>
+                <td>R$ 89,90</td>
+                <td>Aguardando pagamento</td>
+                
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 </html>
