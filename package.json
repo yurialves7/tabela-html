@@ -1,0 +1,15 @@
+{
+  "name": "tabela-html",
+  "version": "1.0.0",
+  "description": "criando tabela em html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabela",
+    "dados"
+  ],
+  "author": "yuri de jesus alves",
+  "license": "ISC"
+}
